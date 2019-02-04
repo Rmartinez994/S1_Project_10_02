@@ -26,6 +26,7 @@ nav a {
 nav a:hover {
     background-size: 100%;
     color: rgb(244, 130, 130);
+    /* What all these lines of code do is make the nav bar have the ba_target.png over the tabs when ever you hoover over them. Also it has the feature of when ever you hoover over the tabs, the letter for the tabs will change color dynamically from a yellow color to a pink color.*/
 }
 
 
@@ -54,6 +55,7 @@ nav a:hover {
     100% {
         left: 0px;
         filter: drop-shadow(-40px 20px 25px rgb(51, 51, 51));
+        /* What these lines of code is it gives the red ball a drop shadow and when ever it moves it will follow but also when the red ball begins to move back the drop shadow will flip and follow the red ball again.  */
     }
 }
 
@@ -80,6 +82,7 @@ nav a:hover {
     100% {
         right: -700px;
         filter: drop-shadow(120px 20px 25px rgb(51, 51, 51));
+        /* What these lines of code is it gives the blue ball a drop shadow and when ever it moves it will follow but also when the blue ball begins to move back the drop shadow will flip and follow the blue ball again.  */
     }
 }
 
@@ -119,6 +122,8 @@ nav a:hover {
     }
 }
 
+/* All these lines of code add the feature of allowing the text for the example to appear when the blue and red ball collide. */
+
 #redBall {
     animation: moveRed 5s linear infinite;
 }
@@ -132,3 +137,5 @@ div#blueSpeed1 {
     animation: hideText 5s linear infinite;
     animation: showText 5s linear infinite;
 }
+
+/* These lines of code add the ability for the red and blue ball to move. */
